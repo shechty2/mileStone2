@@ -25,7 +25,9 @@ sudo g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o
 
  After compilation, type:
  
- ./a.out 'port_no'
+ ./a.out <port number>
+ 
+ If you are not specifing a port number it shall be 5600 by default. 
  
  2.After the program is running, connect as a client.
  
